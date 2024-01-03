@@ -1,0 +1,91 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid rgb(14, 24, 177); */
+    padding:10px;
+}
+.logo a {
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+    font-size:18px;
+}
+
+
+.menu {
+    display:flex;
+    list-style:none;
+
+}
+
+.menu li{
+    margin-left: 10px;
+
+}
+
+.menu li a {
+    text-decoration:none;
+    color:#333;
+}
+/* make ever thing banner to center */
+.banner {
+    background-color: teal;
+    color:#fff;
+    height: 400px;
+    display:flex;
+    justify-content:center;
+    align-items:center
+    
+}
+
+.banner h1 {
+    margin-top:7px;
+}
+/* amke text in banner-info to center,middle */
+.banner-info {
+    text-align:center
+}
+
+/*  */
+.banner-info img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+main {
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main dir {
+    padding:20px;
+    
+}
+
+main dir h3 {
+    padding: 10px;
+}
+main img {
+    width:95%;
+    border-radius: 10px;
+
+}
+
+main dir p {
+    margin-top:10px;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 13px;
+    text-align:right;
+}
